@@ -19,7 +19,7 @@ namespace SortAndSearch
 
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine("\n---------------------------------------------------------------------------------------------");
-                Console.WriteLine("---------------------------------------Array Size of {0}----------------------------------");
+                Console.WriteLine("---------------------------------------Array Size of {0}----------------------------------", arraySize);
                 Console.WriteLine("---------------------------------------------------------------------------------------------");
 
                 BubbleSort.Sort(ArrayGenerator.NewArray(arraySize));
